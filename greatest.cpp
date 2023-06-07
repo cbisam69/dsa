@@ -13,3 +13,16 @@ int main()
     }
     cout<<largest;
 }
+
+
+/*
+#include<bits/stdc++.h>
+using namespace  std;
+int main()
+{
+    int arr[6]={100,9,11,2,1,99};
+    int n=6;
+    sort(arr,arr+6);
+    cout<<arr[n-1];
+}
+*/
