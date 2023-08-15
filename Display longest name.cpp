@@ -62,3 +62,25 @@ int main()
 }
 
 // } Driver Code Ends
+
+
+
+
+/////or
+class Solution{
+    public:
+    string longest(string names[], int n)
+    {  
+        string num=names[0];
+        for(int i=0;i<n;i++)
+        {
+            if(num.length()<names[i].length())
+            {
+                num=names[i];
+            }
+        }
+         return num;
+    }
+    
+   
+};
